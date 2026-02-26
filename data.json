@@ -1,0 +1,17 @@
+{
+  "Punjab": {
+    "scheme": "PM-Kisan (₹6000/year)",
+    "crop": "Wheat & Rice",
+    "tip": "Use a Happy Seeder to manage stubble."
+  },
+  "Maharashtra": {
+    "scheme": "Namo Shetkari Yojana (₹6000/year)",
+    "crop": "Cotton & Sugarcane",
+    "tip": "Check drip irrigation subsidies."
+  },
+  "Rajasthan": {
+    "scheme": "Kusum Yojana (Solar Pumps)",
+    "crop": "Bajra & Mustard",
+    "tip": "Focus on water conservation."
+  }
+}
