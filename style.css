@@ -1,11 +1,40 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 24px;
+}
+.navbar-image{
+    width: 150px;
+    height: 100px;
+}
+.navbar-right{
+    display: flex;
+    gap: 40px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: 500;
+    transition: 0.3s;
+}
 header {
     text-align: center;
     padding: 100px;
     background:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("image/pexels-iriser-721998.jpg");
-    <link rel="stylesheet" href="style.css">
 }
 
 header h1 {
@@ -57,6 +86,73 @@ header p {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
+}
+
+.form-section {
+    text-align: center;
+    padding: 30px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.result-box {
+    margin: 30px auto;
+    padding: 25px;
+    width: 800px;
+    background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.result-box h1 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.result-box p {
+    margin: 8px 0;
+    font-size: 15px;
+        font-size:18px;
+}
+
+.result-box b {
+    color: #1b5e20;
+}
+select {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 220px;
+}
+.advice-button{
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: red;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f1f8e9;
+    margin-top: 40px;
 }
 @media (max-width: 768px) {
     .hello {

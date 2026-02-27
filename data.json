@@ -1,17 +1,170 @@
 {
   "Punjab": {
-    "scheme": "PM-Kisan (₹6000/year)",
-    "crop": "Wheat & Rice",
-    "tip": "Use a Happy Seeder to manage stubble."
+    "small": {
+      "scheme": "PM-KISAN Samman Nidhi",
+      "crop": "Wheat",
+      "tip": "Use government subsidy for seeds and fertilizers"
+    },
+    "large": {
+      "scheme": "Agricultural Mechanization Scheme",
+      "crop": "Wheat",
+      "tip": "Invest in tractors and modern equipment"
+    }
   },
-  "Maharashtra": {
-    "scheme": "Namo Shetkari Yojana (₹6000/year)",
-    "crop": "Cotton & Sugarcane",
-    "tip": "Check drip irrigation subsidies."
+  "Haryana": {
+    "small": {
+      "scheme": "Soil Health Card Scheme",
+      "crop": "Rice",
+      "tip": "Check soil nutrients before fertilization"
+    },
+    "large": {
+      "scheme": "Pradhan Mantri Krishi Sinchai Yojana",
+      "crop": "Rice",
+      "tip": "Adopt micro-irrigation systems"
+    }
+  },
+  "Uttar Pradesh": {
+    "small": {
+      "scheme": "PM Fasal Bima Yojana",
+      "crop": "Sugarcane",
+      "tip": "Ensure crop insurance to reduce risk"
+    },
+    "large": {
+      "scheme": "e-NAM (National Agriculture Market)",
+      "crop": "Sugarcane",
+      "tip": "Sell produce digitally for better pricing"
+    }
   },
   "Rajasthan": {
-    "scheme": "Kusum Yojana (Solar Pumps)",
-    "crop": "Bajra & Mustard",
-    "tip": "Focus on water conservation."
+    "small": {
+      "scheme": "Kisan Credit Card",
+      "crop": "Bajra",
+      "tip": "Use credit support for inputs"
+    },
+    "large": {
+      "scheme": "PM Krishi Sinchai Yojana",
+      "crop": "Bajra",
+      "tip": "Use drip irrigation to save water"
+    }
+  },
+  "Maharashtra": {
+    "small": {
+      "scheme": "PM-KISAN",
+      "crop": "Cotton",
+      "tip": "Income support helps input purchase"
+    },
+    "large": {
+      "scheme": "Rashtriya Krishi Vikas Yojana",
+      "crop": "Cotton",
+      "tip": "Adopt modern farming technology"
+    }
+  },
+  "Madhya Pradesh": {
+    "small": {
+      "scheme": "National Food Security Mission",
+      "crop": "Soybean",
+      "tip": "Use high-quality certified seeds"
+    },
+    "large": {
+      "scheme": "Agricultural Infrastructure Fund",
+      "crop": "Soybean",
+      "tip": "Invest in storage and logistics"
+    }
+  },
+  "Bihar": {
+    "small": {
+      "scheme": "PM Fasal Bima Yojana",
+      "crop": "Maize",
+      "tip": "Insurance protects against flood loss"
+    },
+    "large": {
+      "scheme": "e-NAM",
+      "crop": "Maize",
+      "tip": "Market linkage improves revenue"
+    }
+  },
+  "Gujarat": {
+    "small": {
+      "scheme": "Paramparagat Krishi Vikas Yojana",
+      "crop": "Groundnut",
+      "tip": "Adopt organic practices"
+    },
+    "large": {
+      "scheme": "PM Krishi Sinchai Yojana",
+      "crop": "Groundnut",
+      "tip": "Install drip irrigation"
+    }
+  },
+  "Tamil Nadu": {
+    "small": {
+      "scheme": "National Horticulture Mission",
+      "crop": "Paddy",
+      "tip": "Diversify into vegetables"
+    },
+    "large": {
+      "scheme": "Agricultural Mechanization Scheme",
+      "crop": "Paddy",
+      "tip": "Use harvesting machinery"
+    }
+  },
+  "Karnataka": {
+    "small": {
+      "scheme": "Rythu Bandhu",
+      "crop": "Millets",
+      "tip": "Millets need less water"
+    },
+    "large": {
+      "scheme": "PM Krishi Sinchai Yojana",
+      "crop": "Millets",
+      "tip": "Use sprinkler irrigation"
+    }
+  },
+  "West Bengal": {
+    "small": {
+      "scheme": "Krishak Bandhu",
+      "crop": "Jute",
+      "tip": "Use certified seeds"
+    },
+    "large": {
+      "scheme": "e-NAM",
+      "crop": "Jute",
+      "tip": "Sell through digital mandi"
+    }
+  },
+  "Telangana": {
+    "small": {
+      "scheme": "Rythu Bandhu",
+      "crop": "Cotton",
+      "tip": "Use financial assistance wisely"
+    },
+    "large": {
+      "scheme": "Agricultural Infrastructure Fund",
+      "crop": "Cotton",
+      "tip": "Invest in storage"
+    }
+  },
+  "Kerala": {
+    "small": {
+      "scheme": "National Horticulture Mission",
+      "crop": "Coconut",
+      "tip": "Intercropping increases income"
+    },
+    "large": {
+      "scheme": "PM Matsya Sampada Yojana",
+      "crop": "Coconut",
+      "tip": "Integrated farming improves stability"
+    }
+  },
+  "Odisha": {
+    "small": {
+      "scheme": "KALIA Scheme",
+      "crop": "Paddy",
+      "tip": "Use income support effectively"
+    },
+    "large": {
+      "scheme": "PM Krishi Sinchai Yojana",
+      "crop": "Paddy",
+      "tip": "Improve irrigation"
+    }
   }
 }

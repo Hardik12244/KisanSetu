@@ -9,16 +9,25 @@ app.use(express.json());
 
 const agricultureData = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 
-app.get('/get-advice',(req,res)=>{
-    console.log("hi");
-})
 
 app.post('/get-advice', (req, res) => {
-    const { state, landSize } = req.body; 
-    
-    const info = agricultureData[state]; 
 
+    const { state, landSize } = req.body;
+
+    if (!agricultureData[state]) {
+        return res.json({
+            category: "Unknown",
+            governmentScheme: "No data available",
+            recommendedCrop: "No data available",
+            expertTip: "Please enter valid state"
+        });
+    }
+
+    let sizeType = landSize <= 2 ? "small" : "large";
+    const info = agricultureData[state][sizeType];
+    
     let sizeCategory = "";
+
     if (landSize <= 2) {
         sizeCategory = "Small Farmer (Priority Support)";
     } else {
