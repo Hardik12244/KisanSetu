@@ -1,170 +1,1485 @@
-{
-  "Punjab": {
-    "small": {
-      "scheme": "PM-KISAN Samman Nidhi",
-      "crop": "Wheat",
-      "tip": "Use government subsidy for seeds and fertilizers"
-    },
-    "large": {
-      "scheme": "Agricultural Mechanization Scheme",
-      "crop": "Wheat",
-      "tip": "Invest in tractors and modern equipment"
+ {
+"Punjab": {
+    "cities": {
+      "Ludhiana": {
+        "coords": { "lat": 30.9010, "lon": 75.8573 },
+        "small": {
+          "scheme": "PM-KISAN Samman Nidhi",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Use subsidy for seeds",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Agricultural Mechanization Scheme",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Invest in tractors",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Amritsar": {
+        "coords": { "lat": 31.6223, "lon": 74.8753 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Use improved irrigation",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Adopt drip irrigation",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Patiala": {
+        "coords": { "lat": 30.3363, "lon": 76.3922 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Apply for soil health cards",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Sub-Mission on Agricultural Mechanization",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Buy combine harvesters",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Jalandhar": {
+        "coords": { "lat": 31.3256, "lon": 75.5792 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Maize",
+          "soil": "Alluvial Soil",
+          "tip": "Get crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Maize",
+          "soil": "Alluvial Soil",
+          "tip": "Use hybrid seeds",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Bathinda": {
+        "coords": { "lat": 30.2075, "lon": 74.9389 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Cotton",
+          "soil": "Sandy Loam",
+          "tip": "Use Bt cotton seeds",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Cotton Mission",
+          "crop": "Cotton",
+          "soil": "Sandy Loam",
+          "tip": "Install solar pumps",
+          "link": "https://cotton.nic.in"
+        }
+      },
+      "Sangrur": {
+        "coords": { "lat": 30.2451, "lon": 75.8449 },
+        "small": {
+          "scheme": "Soil Health Card Scheme",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Test soil nutrients",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Build micro-irrigation",
+          "link": "https://pmksy.gov.in"
+        }
+      }
     }
   },
   "Haryana": {
-    "small": {
-      "scheme": "Soil Health Card Scheme",
-      "crop": "Rice",
-      "tip": "Check soil nutrients before fertilization"
-    },
-    "large": {
-      "scheme": "Pradhan Mantri Krishi Sinchai Yojana",
-      "crop": "Rice",
-      "tip": "Adopt micro-irrigation systems"
+    "cities": {
+      "Ambala": {
+        "coords": { "lat": 30.3285, "lon": 76.9422 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Use certified seeds",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Haryana Agri Mechanization",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Lease farm machinery",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Kurukshetra": {
+        "coords": { "lat": 30.0000, "lon": 76.7500 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Insure basmati rice",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Adopt sprinkler systems",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Hisar": {
+        "coords": { "lat": 29.1539, "lon": 75.7229 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Cotton",
+          "soil": "Sandy Loam",
+          "tip": "Apply for input subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Rashtriya Krishi Vikas Yojana",
+          "crop": "Cotton",
+          "soil": "Sandy Loam",
+          "tip": "Use precision farming",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Rohtak": {
+        "coords": { "lat": 28.8333, "lon": 76.6667 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Balance soil pH",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Oilseeds Mission",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Invest in harvesters",
+          "link": "https://nso.nic.in"
+        }
+      },
+      "Panipat": {
+        "coords": { "lat": 29.3326, "lon": 76.9263 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Wheat",
+          "soil": "Loamy Soil",
+          "tip": "Use zero tillage",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Agricultural Mechanization",
+          "crop": "Wheat",
+          "soil": "Loamy Soil",
+          "tip": "Buy laser land levelers",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Gurugram": {
+        "coords": { "lat": 28.4555, "lon": 77.0219 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Vegetables",
+          "soil": "Alluvial Soil",
+          "tip": "Insure high‑value crops",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Vegetables",
+          "soil": "Alluvial Soil",
+          "tip": "Set up cold storage",
+          "link": "https://midh.gov.in"
+        }
+      }
     }
   },
   "Uttar Pradesh": {
-    "small": {
-      "scheme": "PM Fasal Bima Yojana",
-      "crop": "Sugarcane",
-      "tip": "Ensure crop insurance to reduce risk"
-    },
-    "large": {
-      "scheme": "e-NAM (National Agriculture Market)",
-      "crop": "Sugarcane",
-      "tip": "Sell produce digitally for better pricing"
+    "cities": {
+      "Lucknow": {
+        "coords": { "lat": 26.8393, "lon": 80.9231 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Apply for direct benefit",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "UP Agri Mechanization",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Purchase tractors",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Kanpur": {
+        "coords": { "lat": 26.4499, "lon": 80.3319 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Sugarcane",
+          "soil": "Alluvial Soil",
+          "tip": "Get crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Sugarcane",
+          "soil": "Alluvial Soil",
+          "tip": "Install drip systems",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Varanasi": {
+        "coords": { "lat": 25.3167, "lon": 83.0104 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Gangetic Alluvium",
+          "tip": "Use hybrid paddy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Rice",
+          "soil": "Gangetic Alluvium",
+          "tip": "Adopt SRI method",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Agra": {
+        "coords": { "lat": 27.1833, "lon": 78.0167 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Improve soil fertility",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Oilseeds Mission",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Use mechanical harvesters",
+          "link": "https://nso.nic.in"
+        }
+      },
+      "Meerut": {
+        "coords": { "lat": 28.9716, "lon": 77.7193 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Sugarcane",
+          "soil": "Loamy Alluvium",
+          "tip": "Access input subsidies",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Rashtriya Krishi Vikas Yojana",
+          "crop": "Sugarcane",
+          "soil": "Loamy Alluvium",
+          "tip": "Build sugar mills",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Bareilly": {
+        "coords": { "lat": 28.4167, "lon": 79.3833 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Pigeon Pea",
+          "soil": "Alluvial Soil",
+          "tip": "Insure pulses",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Pigeon Pea",
+          "soil": "Alluvial Soil",
+          "tip": "Use intercropping",
+          "link": "https://nfsm.gov.in"
+        }
+      }
     }
   },
   "Rajasthan": {
-    "small": {
-      "scheme": "Kisan Credit Card",
-      "crop": "Bajra",
-      "tip": "Use credit support for inputs"
-    },
-    "large": {
-      "scheme": "PM Krishi Sinchai Yojana",
-      "crop": "Bajra",
-      "tip": "Use drip irrigation to save water"
+    "cities": {
+      "Jaipur": {
+        "coords": { "lat": 26.9196, "lon": 75.7878 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Bajra",
+          "soil": "Sandy Loam",
+          "tip": "Use drought‑resistant seeds",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Bajra",
+          "soil": "Sandy Loam",
+          "tip": "Build farm ponds",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Jodhpur": {
+        "coords": { "lat": 21.5462, "lon": 70.1050 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Jowar",
+          "soil": "Arid Soil",
+          "tip": "Apply organic manure",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Rajasthan Drought Relief",
+          "crop": "Jowar",
+          "soil": "Arid Soil",
+          "tip": "Install solar irrigation",
+          "link": "https://agri.rajasthan.gov.in"
+        }
+      },
+      "Udaipur": {
+        "coords": { "lat": 24.5712, "lon": 73.6918 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Maize",
+          "soil": "Red Loam",
+          "tip": "Use subsidized fertilizers",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Maize",
+          "soil": "Red Loam",
+          "tip": "Adopt hybrid varieties",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Kota": {
+        "coords": { "lat": 25.1934, "lon": 75.8569 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Get oilseed insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "Oilseeds Mission",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Use drip irrigation",
+          "link": "https://nso.nic.in"
+        }
+      },
+      "Bikaner": {
+        "coords": { "lat": 28.0229, "lon": 73.3119 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Guar",
+          "soil": "Sandy Soil",
+          "tip": "High‑yielding varieties",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Guar",
+          "soil": "Sandy Soil",
+          "tip": "Watershed development",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Ajmer": {
+        "coords": { "lat": 26.4498, "lon": 74.6412 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Wheat",
+          "soil": "Loamy Sand",
+          "tip": "Balance micronutrients",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Wheat",
+          "soil": "Loamy Sand",
+          "tip": "Mechanize sowing",
+          "link": "https://rkvy.nic.in"
+        }
+      }
     }
   },
   "Maharashtra": {
-    "small": {
-      "scheme": "PM-KISAN",
-      "crop": "Cotton",
-      "tip": "Income support helps input purchase"
-    },
-    "large": {
-      "scheme": "Rashtriya Krishi Vikas Yojana",
-      "crop": "Cotton",
-      "tip": "Adopt modern farming technology"
+    "cities": {
+      "Mumbai": {
+        "coords": { "lat": 19.0728, "lon": 72.8826 },
+        "soil": "Black Soil",
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Cotton",
+          "tip": "Use government input support",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Rashtriya Krishi Vikas Yojana",
+          "crop": "Cotton",
+          "tip": "Adopt mechanized farming",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Pune": {
+        "coords": { "lat": 18.5196, "lon": 73.8554 },
+        "soil": "Black Soil",
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Sugarcane",
+          "tip": "Opt for crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Sugarcane",
+          "tip": "Adopt drip irrigation",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Nagpur": {
+        "coords": { "lat": 21.1463, "lon": 79.0849 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Orange",
+          "soil": "Deep Black Soil",
+          "tip": "Use citrus subsidies",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Orange",
+          "soil": "Deep Black Soil",
+          "tip": "Build packhouses",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Nashik": {
+        "coords": { "lat": 19.9973, "lon": 73.7910 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Grapes",
+          "soil": "Basalt Derived",
+          "tip": "Insure vineyards",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "National Horticulture Mission",
+          "crop": "Grapes",
+          "soil": "Basalt Derived",
+          "tip": "Install trellis systems",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Aurangabad": {
+        "coords": { "lat": 19.8847, "lon": 75.3399 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Soybean",
+          "soil": "Medium Black",
+          "tip": "Use seed treatment",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Oilseeds Mission",
+          "crop": "Soybean",
+          "soil": "Medium Black",
+          "tip": "Adopt conservation tillage",
+          "link": "https://nso.nic.in"
+        }
+      },
+      "Solapur": {
+        "coords": { "lat": 17.6511, "lon": 75.9129 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Pomegranate",
+          "soil": "Deep Black Soil",
+          "tip": "Test soil pH",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Pomegranate",
+          "soil": "Deep Black Soil",
+          "tip": "Micro‑irrigation setup",
+          "link": "https://midh.gov.in"
+        }
+      }
     }
   },
   "Madhya Pradesh": {
-    "small": {
-      "scheme": "National Food Security Mission",
-      "crop": "Soybean",
-      "tip": "Use high-quality certified seeds"
-    },
-    "large": {
-      "scheme": "Agricultural Infrastructure Fund",
-      "crop": "Soybean",
-      "tip": "Invest in storage and logistics"
-    }
-  },
-  "Bihar": {
-    "small": {
-      "scheme": "PM Fasal Bima Yojana",
-      "crop": "Maize",
-      "tip": "Insurance protects against flood loss"
-    },
-    "large": {
-      "scheme": "e-NAM",
-      "crop": "Maize",
-      "tip": "Market linkage improves revenue"
+    "cities": {
+      "Bhopal": {
+        "coords": { "lat": 23.2547, "lon": 77.4029 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Soybean",
+          "soil": "Black Soil",
+          "tip": "Use rhizobium culture",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Soybean",
+          "soil": "Black Soil",
+          "tip": "Invest in planters",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Indore": {
+        "coords": { "lat": 22.7179, "lon": 75.8333 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Wheat",
+          "soil": "Vertisols",
+          "tip": "Insure rabi crops",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Wheat",
+          "soil": "Vertisols",
+          "tip": "Watershed management",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Jabalpur": {
+        "coords": { "lat": 23.1670, "lon": 79.9501 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Red Yellow Soil",
+          "tip": "Direct seeded rice",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Rice",
+          "soil": "Red Yellow Soil",
+          "tip": "Laser leveling",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Gwalior": {
+        "coords": { "lat": 26.2298, "lon": 78.1734 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Sulphur application",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Oilseeds Mission",
+          "crop": "Mustard",
+          "soil": "Alluvial Soil",
+          "tip": "Mechanized harvesting",
+          "link": "https://nso.nic.in"
+        }
+      },
+      "Ujjain": {
+        "coords": { "lat": 23.2167, "lon": 75.7833 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Soybean",
+          "soil": "Black Cotton Soil",
+          "tip": "Foliar micronutrients",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Agricultural Mechanization",
+          "crop": "Soybean",
+          "soil": "Black Cotton Soil",
+          "tip": "Seed drills investment",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Sagar": {
+        "coords": { "lat": 23.3667, "lon": 78.7333 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Gram",
+          "soil": "Red Soil",
+          "tip": "Pulse crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Gram",
+          "soil": "Red Soil",
+          "tip": "Zero tillage planters",
+          "link": "https://nfsm.gov.in"
+        }
+      }
     }
   },
   "Gujarat": {
-    "small": {
-      "scheme": "Paramparagat Krishi Vikas Yojana",
-      "crop": "Groundnut",
-      "tip": "Adopt organic practices"
-    },
-    "large": {
-      "scheme": "PM Krishi Sinchai Yojana",
-      "crop": "Groundnut",
-      "tip": "Install drip irrigation"
+    "cities": {
+      "Ahmedabad": {
+        "coords": { "lat": 23.0276, "lon": 72.5871 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Cotton",
+          "soil": "Black Soil",
+          "tip": "BG‑II cotton subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Gujarat Agri Mech",
+          "crop": "Cotton",
+          "soil": "Black Soil",
+          "tip": "Tractor purchase",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Surat": {
+        "coords": { "lat": 21.1959, "lon": 72.8302 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Sugarcane",
+          "soil": "Alluvial Soil",
+          "tip": "Cash crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Sugarcane",
+          "soil": "Alluvial Soil",
+          "tip": "Drip irrigation subsidy",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Rajkot": {
+        "coords": { "lat": 22.3011, "lon": 70.8015 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Groundnut",
+          "soil": "Sandy Loam",
+          "tip": "Oilseed subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Oilseeds Mission",
+          "crop": "Groundnut",
+          "soil": "Sandy Loam",
+          "tip": "Mechanized shelling",
+          "link": "https://nso.nic.in"
+        }
+      },
+      "Vadodara": {
+        "coords": { "lat": 22.3072, "lon": 73.1812 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Maize",
+          "soil": "Medium Black",
+          "tip": "Soil testing first",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Maize",
+          "soil": "Medium Black",
+          "tip": "Hybrid maize cultivation",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Bhavnagar": {
+        "coords": { "lat": 21.7683, "lon": 72.1452 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Cotton",
+          "soil": "Coastal Alluvium",
+          "tip": "Input subsidy access",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Cotton",
+          "soil": "Coastal Alluvium",
+          "tip": "Ginning mills setup",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Junagadh": {
+        "coords": { "lat": 21.5279, "lon": 70.4672 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Wheat",
+          "soil": "Loamy Sand",
+          "tip": "Rabi crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Wheat",
+          "soil": "Loamy Sand",
+          "tip": "Sprinkler irrigation",
+          "link": "https://pmksy.gov.in"
+        }
+      }
+    }
+  },
+  "Bihar": {
+    "cities": {
+      "Patna": {
+        "coords": { "lat": 25.4167, "lon": 85.1667 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Gangetic Alluvium",
+          "tip": "Hybrid rice subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Bihar Agri Mechanization",
+          "crop": "Rice",
+          "soil": "Gangetic Alluvium",
+          "tip": "Transplanters purchase",
+          "link": "https://agrimachinery.nic.in"
+        }
+      },
+      "Gaya": {
+        "coords": { "lat": 24.7969, "lon": 85.0039 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Rabi crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Wheat",
+          "soil": "Alluvial Soil",
+          "tip": "Solar pump subsidy",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Bhagalpur": {
+        "coords": { "lat": 25.2902, "lon": 87.0667 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Maize",
+          "soil": "Loamy Alluvium",
+          "tip": "QPM maize subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Maize",
+          "soil": "Loamy Alluvium",
+          "tip": "Hybrid maize cultivation",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Muzaffarpur": {
+        "coords": { "lat": 26.1226, "lon": 85.3905 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Litchi",
+          "soil": "Sandy Loam",
+          "tip": "Fruit crop subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Litchi",
+          "soil": "Sandy Loam",
+          "tip": "Packhouse construction",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Darbhanga": {
+        "coords": { "lat": 26.1522, "lon": 85.8971 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Makhana",
+          "soil": "Flood Plain Soil",
+          "tip": "Soil nutrient management",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Makhana",
+          "soil": "Flood Plain Soil",
+          "tip": "Value addition units",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Purnia": {
+        "coords": { "lat": 25.8161, "lon": 87.4071 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Jute",
+          "soil": "Alluvial Soil",
+          "tip": "Fibre crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "Jute Technology Mission",
+          "crop": "Jute",
+          "soil": "Alluvial Soil",
+          "tip": "Improved retting tanks",
+          "link": "https://jtm.nic.in"
+        }
+      }
     }
   },
   "Tamil Nadu": {
-    "small": {
-      "scheme": "National Horticulture Mission",
-      "crop": "Paddy",
-      "tip": "Diversify into vegetables"
-    },
-    "large": {
-      "scheme": "Agricultural Mechanization Scheme",
-      "crop": "Paddy",
-      "tip": "Use harvesting machinery"
+    "cities": {
+      "Chennai": {
+        "coords": { "lat": 13.0827, "lon": 80.2707 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Kuruvai paddy subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "TN Irrigated Agriculture",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "System of Rice Intensification",
+          "link": "https://agri.tn.gov.in"
+        }
+      },
+      "Coimbatore": {
+        "coords": { "lat": 11.0168, "lon": 76.9558 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Maize",
+          "soil": "Red Loam",
+          "tip": "Hybrid maize insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Maize",
+          "soil": "Red Loam",
+          "tip": "Poultry feed production",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Madurai": {
+        "coords": { "lat": 9.9252, "lon": 78.1198 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Sugarcane",
+          "soil": "Red Sandy",
+          "tip": "Co 86032 variety",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Sugarcane",
+          "soil": "Red Sandy",
+          "tip": "Drip irrigation mandatory",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Tiruchirappalli": {
+        "coords": { "lat": 10.8008, "lon": 78.6921 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Banana",
+          "soil": "Alluvial Loam",
+          "tip": "Tissue culture plants",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Banana",
+          "soil": "Alluvial Loam",
+          "tip": "High‑density planting",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Salem": {
+        "coords": { "lat": 11.6643, "lon": 78.1460 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Tapioca",
+          "soil": "Red Loam",
+          "tip": "Stem cutting subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Tapioca",
+          "soil": "Red Loam",
+          "tip": "Starch processing units",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Erode": {
+        "coords": { "lat": 11.3410, "lon": 77.7172 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Turmeric",
+          "soil": "Loamy Soil",
+          "tip": "Spice crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "Spices Board Scheme",
+          "crop": "Turmeric",
+          "soil": "Loamy Soil",
+          "tip": "Organic certification",
+          "link": "https://spicesboard.in"
+        }
+      }
     }
   },
   "Karnataka": {
-    "small": {
-      "scheme": "Rythu Bandhu",
-      "crop": "Millets",
-      "tip": "Millets need less water"
-    },
-    "large": {
-      "scheme": "PM Krishi Sinchai Yojana",
-      "crop": "Millets",
-      "tip": "Use sprinkler irrigation"
-    }
-  },
-  "West Bengal": {
-    "small": {
-      "scheme": "Krishak Bandhu",
-      "crop": "Jute",
-      "tip": "Use certified seeds"
-    },
-    "large": {
-      "scheme": "e-NAM",
-      "crop": "Jute",
-      "tip": "Sell through digital mandi"
+    "cities": {
+      "Bengaluru": {
+        "coords": { "lat": 12.9716, "lon": 77.5946 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Ragi",
+          "soil": "Red Soil",
+          "tip": "GPU 28 variety subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Karnataka Raitha Samruddhi",
+          "crop": "Ragi",
+          "soil": "Red Soil",
+          "tip": "Custom hiring centers",
+          "link": "https://raitasamruddhi.karnataka.gov.in"
+        }
+      },
+      "Hubli": {
+        "coords": { "lat": 15.3619, "lon": 75.1199 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Cotton",
+          "soil": "Black Soil",
+          "tip": "Bt cotton insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Cotton",
+          "soil": "Black Soil",
+          "tip": "Drip irrigation compulsory",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Mysuru": {
+        "coords": { "lat": 12.3156, "lon": 76.6329 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Coffee",
+          "soil": "Laterite Soil",
+          "tip": "Arabica subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Coffee Board Scheme",
+          "crop": "Coffee",
+          "soil": "Laterite Soil",
+          "tip": "Shade tree plantation",
+          "link": "https://coffeeboard.gov.in"
+        }
+      },
+      "Belagavi": {
+        "coords": { "lat": 15.8833, "lon": 74.5000 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Sugarcane",
+          "soil": "Deep Black Soil",
+          "tip": "Co 86032 variety",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Rashtriya Krishi Vikas Yojana",
+          "crop": "Sugarcane",
+          "soil": "Deep Black Soil",
+          "tip": "Co‑gen power plants",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Mangaluru": {
+        "coords": { "lat": 12.9141, "lon": 74.8560 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Cashew",
+          "soil": "Coastal Alluvium",
+          "tip": "H‑3 variety subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Cashew",
+          "soil": "Coastal Alluvium",
+          "tip": "Processing units setup",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Davangere": {
+        "coords": { "lat": 14.4617, "lon": 75.9595 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Paddy",
+          "soil": "Red Loam",
+          "tip": "Sona Masuri insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Paddy",
+          "soil": "Red Loam",
+          "tip": "Hybrid rice cultivation",
+          "link": "https://nfsm.gov.in"
+        }
+      }
     }
   },
   "Telangana": {
-    "small": {
-      "scheme": "Rythu Bandhu",
-      "crop": "Cotton",
-      "tip": "Use financial assistance wisely"
-    },
-    "large": {
-      "scheme": "Agricultural Infrastructure Fund",
-      "crop": "Cotton",
-      "tip": "Invest in storage"
+    "cities": {
+      "Hyderabad": {
+        "coords": { "lat": 17.3850, "lon": 78.4867 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Red Sandy Loam",
+          "tip": "Swarna variety subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Rythu Bandhu",
+          "crop": "Rice",
+          "soil": "Red Sandy Loam",
+          "tip": "Laser land leveling",
+          "link": "https://rythubandhu.telangana.gov.in"
+        }
+      },
+      "Warangal": {
+        "coords": { "lat": 17.9986, "lon": 79.5941 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Cotton",
+          "soil": "Red Soil",
+          "tip": "Bt cotton insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Cotton",
+          "soil": "Red Soil",
+          "tip": "Drip irrigation mandatory",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Nizamabad": {
+        "coords": { "lat": 18.6829, "lon": 78.0841 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Turmeric",
+          "soil": "Deep Red Soil",
+          "tip": "Salem variety subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Spices Board Scheme",
+          "crop": "Turmeric",
+          "soil": "Deep Red Soil",
+          "tip": "Organic turmeric",
+          "link": "https://spicesboard.in"
+        }
+      },
+      "Karimnagar": {
+        "coords": { "lat": 18.4333, "lon": 79.1167 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Chilli",
+          "soil": "Loamy Sand",
+          "tip": "Phule Abu soil test",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Chilli",
+          "soil": "Loamy Sand",
+          "tip": "Polyhouse cultivation",
+          "link": "https://rkvy.nic.in"
+        }
+      },
+      "Khammam": {
+        "coords": { "lat": 17.2411, "lon": 80.1500 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Paddy",
+          "soil": "Alluvial Soil",
+          "tip": "MTU 7029 subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Paddy",
+          "soil": "Alluvial Soil",
+          "tip": "Direct seeded rice",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Mahabubnagar": {
+        "coords": { "lat": 17.0833, "lon": 78.2500 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Maize",
+          "soil": "Red Loam",
+          "tip": "Hybrid maize insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Maize",
+          "soil": "Red Loam",
+          "tip": "Sweet corn production",
+          "link": "https://nfsm.gov.in"
+        }
+      }
+    }
+  },
+  "West Bengal": {
+    "cities": {
+      "Kolkata": {
+        "coords": { "lat": 22.5726, "lon": 88.3639 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Gangetic Alluvium",
+          "tip": "Aman paddy subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "WB Accelerated Agri",
+          "crop": "Rice",
+          "soil": "Gangetic Alluvium",
+          "tip": "Paddy transplanters",
+          "link": "https://wbagrimachinery.gov.in"
+        }
+      },
+      "Siliguri": {
+        "coords": { "lat": 26.7271, "lon": 88.3953 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Tea",
+          "soil": "Lateritic Soil",
+          "tip": "Tea garden insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "Tea Board Scheme",
+          "crop": "Tea",
+          "soil": "Lateritic Soil",
+          "tip": "Clonal propagation",
+          "link": "https://teaboard.gov.in"
+        }
+      },
+      "Durgapur": {
+        "coords": { "lat": 23.5249, "lon": 87.3212 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Potato",
+          "soil": "Alluvial Loam",
+          "tip": "Kufri Jyoti subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Potato",
+          "soil": "Alluvial Loam",
+          "tip": "Cold storage subsidy",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Asansol": {
+        "coords": { "lat": 23.6932, "lon": 87.2941 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Jute",
+          "soil": "Flood Plain Soil",
+          "tip": "Soil fertility management",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Jute Technology Mission",
+          "crop": "Jute",
+          "soil": "Flood Plain Soil",
+          "tip": "Improved retting technology",
+          "link": "https://jtm.nic.in"
+        }
+      },
+      "Burdwan": {
+        "coords": { "lat": 23.2701, "lon": 87.8689 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Clay Loam",
+          "tip": "Boro paddy subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Rice",
+          "soil": "Clay Loam",
+          "tip": "System of Rice Intensification",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Malda": {
+        "coords": { "lat": 24.9999, "lon": 88.1265 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Mango",
+          "soil": "Sandy Loam",
+          "tip": "Amrapali insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Mango",
+          "soil": "Sandy Loam",
+          "tip": "Ultra high density",
+          "link": "https://midh.gov.in"
+        }
+      }
     }
   },
   "Kerala": {
-    "small": {
-      "scheme": "National Horticulture Mission",
-      "crop": "Coconut",
-      "tip": "Intercropping increases income"
-    },
-    "large": {
-      "scheme": "PM Matsya Sampada Yojana",
-      "crop": "Coconut",
-      "tip": "Integrated farming improves stability"
+    "cities": {
+      "Thiruvananthapuram": {
+        "coords": { "lat": 8.4855, "lon": 76.9492 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rubber",
+          "soil": "Lateritic Soil",
+          "tip": "RRII 208 subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Rubber Board Scheme",
+          "crop": "Rubber",
+          "soil": "Lateritic Soil",
+          "tip": "Clonal planting material",
+          "link": "https://rubberboard.gov.in"
+        }
+      },
+      "Kochi": {
+        "coords": { "lat": 9.9819, "lon": 76.2999 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Coconut",
+          "soil": "Coastal Alluvium",
+          "tip": "Tall variety insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "Coconut Development Board",
+          "crop": "Coconut",
+          "soil": "Coastal Alluvium",
+          "tip": "Replanting programme",
+          "link": "https://coconutboard.gov.in"
+        }
+      },
+      "Kozhikode": {
+        "coords": { "lat": 11.2588, "lon": 75.7804 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Pepper",
+          "soil": "Forest Loam",
+          "tip": "Panniyur 1 subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Spices Board Scheme",
+          "crop": "Pepper",
+          "soil": "Forest Loam",
+          "tip": "Panniyur 5 variety",
+          "link": "https://spicesboard.in"
+        }
+      },
+      "Thrissur": {
+        "coords": { "lat": 10.5276, "lon": 76.2144 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Banana",
+          "soil": "Alluvial Soil",
+          "tip": "Nendran soil test",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Banana",
+          "soil": "Alluvial Soil",
+          "tip": "Tissue culture plants",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Kannur": {
+        "coords": { "lat": 11.8757, "lon": 75.3712 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Cashew",
+          "soil": "Laterite Soil",
+          "tip": "Kanaka variety subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Cashew Board Scheme",
+          "crop": "Cashew",
+          "soil": "Laterite Soil",
+          "tip": "High‑yielding varieties",
+          "link": "https://cashewboard.gov.in"
+        }
+      },
+      "Palakkad": {
+        "coords": { "lat": 10.7855, "lon": 76.6499 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Tapioca",
+          "soil": "Red Loam",
+          "tip": "Sree Visakham insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Tapioca",
+          "soil": "Red Loam",
+          "tip": "Starch processing units",
+          "link": "https://rkvy.nic.in"
+        }
+      }
     }
   },
   "Odisha": {
-    "small": {
-      "scheme": "KALIA Scheme",
-      "crop": "Paddy",
-      "tip": "Use income support effectively"
-    },
-    "large": {
-      "scheme": "PM Krishi Sinchai Yojana",
-      "crop": "Paddy",
-      "tip": "Improve irrigation"
+    "cities": {
+      "Bhubaneswar": {
+        "coords": { "lat": 20.2961, "lon": 85.8245 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Sahabhagi Dhan subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "Odisha Agri Mech",
+          "crop": "Rice",
+          "soil": "Alluvial Soil",
+          "tip": "Walk‑behind transplanters",
+          "link": "https://agri.odisha.gov.in"
+        }
+      },
+      "Cuttack": {
+        "coords": { "lat": 20.4610, "lon": 85.8815 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Paddy",
+          "soil": "Deltaic Alluvium",
+          "tip": "Khandagiri insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "PM Krishi Sinchai Yojana",
+          "crop": "Paddy",
+          "soil": "Deltaic Alluvium",
+          "tip": "Lift irrigation points",
+          "link": "https://pmksy.gov.in"
+        }
+      },
+      "Rourkela": {
+        "coords": { "lat": 22.2145, "lon": 84.8667 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Maize",
+          "soil": "Laterite Soil",
+          "tip": "Shaktiman hybrid subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Maize",
+          "soil": "Laterite Soil",
+          "tip": "Baby corn production",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Berhampur": {
+        "coords": { "lat": 19.3081, "lon": 84.7990 },
+        "small": {
+          "scheme": "Soil Health Card",
+          "crop": "Cashew",
+          "soil": "Red Laterite",
+          "tip": "Soil amendment first",
+          "link": "https://soilhealth.dac.gov.in"
+        },
+        "large": {
+          "scheme": "Horticulture Mission",
+          "crop": "Cashew",
+          "soil": "Red Laterite",
+          "tip": "High‑density planting",
+          "link": "https://midh.gov.in"
+        }
+      },
+      "Sambalpur": {
+        "coords": { "lat": 21.4667, "lon": 83.9833 },
+        "small": {
+          "scheme": "PM-KISAN",
+          "crop": "Pulses",
+          "soil": "Red Loam",
+          "tip": "PDM 208 subsidy",
+          "link": "https://pmkisan.gov.in"
+        },
+        "large": {
+          "scheme": "National Food Security Mission",
+          "crop": "Pulses",
+          "soil": "Red Loam",
+          "tip": "Pigeon pea intercropping",
+          "link": "https://nfsm.gov.in"
+        }
+      },
+      "Puri": {
+        "coords": { "lat": 19.8125, "lon": 85.8339 },
+        "small": {
+          "scheme": "PM Fasal Bima Yojana",
+          "crop": "Vegetables",
+          "soil": "Coastal Alluvium",
+          "tip": "High‑value crop insurance",
+          "link": "https://pmfby.gov.in"
+        },
+        "large": {
+          "scheme": "RKVY",
+          "crop": "Vegetables",
+          "soil": "Coastal Alluvium",
+          "tip": "Protected cultivation",
+          "link": "https://rkvy.nic.in"
+        }
+      }
     }
   }
 }
+

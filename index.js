@@ -12,33 +12,38 @@ const agricultureData = JSON.parse(fs.readFileSync('data.json', 'utf8'));
 
 app.post('/get-advice', (req, res) => {
 
-    const { state, landSize } = req.body;
+    const { state, city, landSize } = req.body;
 
-    if (!agricultureData[state]) {
-        return res.json({
-            category: "Unknown",
-            governmentScheme: "No data available",
-            recommendedCrop: "No data available",
-            expertTip: "Please enter valid state"
-        });
+    if (!state || !agricultureData[state]) {
+        return res.json({ error: "Invalid state" });
+    }
+
+    if (!city) {
+        const cities = Object.keys(agricultureData[state].cities);
+        return res.json({ cities });
+    }
+
+    if (!agricultureData[state].cities[city]) {
+        return res.json({ error: "Invalid city" });
     }
 
     let sizeType = landSize <= 2 ? "small" : "large";
-    const info = agricultureData[state][sizeType];
-    
-    let sizeCategory = "";
 
-    if (landSize <= 2) {
-        sizeCategory = "Small Farmer (Priority Support)";
-    } else {
-        sizeCategory = "Large Farmer (Machinery Support)";
-    }
+    const info = agricultureData[state].cities[city][sizeType];
+    const coords = agricultureData[state].cities[city].coords;
+    let sizeCategory = landSize <= 2 
+        ? "Small Farmer (Priority Support)" 
+        : "Large Farmer (Machinery Support)";
 
     res.json({
         category: sizeCategory,
         governmentScheme: info.scheme,
         recommendedCrop: info.crop,
-        expertTip: info.tip
+        expertTip: info.tip,
+        soil: info.soil,
+        link: info.link,
+        coords:coords,
+        city:city,
     });
 });
 

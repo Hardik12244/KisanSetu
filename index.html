@@ -68,7 +68,7 @@
         <h2>Find Schemes For YourSelf</h2>
 
         <label>State:</label>
-        <select id="state">
+        <select class="input-box" id="state">
             <option value="">Select State</option>
             <option value="Punjab">Punjab</option>
             <option value="Haryana">Haryana</option>
@@ -86,15 +86,20 @@
             <option value="Odisha">Odisha</option>
         </select>
 
+        <label>City:</label>
+        <select class="input-box" id="city">
+            <option value="">Select City</option>
+        </select>
+
         <label>Land Size (in hectares):</label>
-        <input type="number" id="landSize" placeholder="Enter land size">
+        <input type="number" id="landSize" class="input-box" placeholder="Enter land size">
 
         <button class="advice-button" onclick="getAdvice()">Get Advice</button>
 
         <div id="result" class="result-box"></div>
-        
+
         <section id="weather">
-            <h2>🌦️ Live Weather</h2>
+            <h2>Live Weather</h2>
             <div id="weatherBox"></div>
         </section>
 

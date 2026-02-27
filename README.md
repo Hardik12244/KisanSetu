@@ -1,10 +1,17 @@
-🌾 KisanSetu: Smart Farming Advisor
+KisanSetu: Smart Farming Advisor
 Empowering farmers with data-driven insights, localized schemes, and land-specific guidance.
 
-📖 Project Overview
-KisanSetu is a lightweight, mobile-first web platform designed to bridge the information gap for rural farmers. By entering their Region, Land Size, and Soil Type, farmers receive personalized recommendations on:
+Project Overview
+KisanSetu is a lightweight, web platform designed to bridge the information gap for rural farmers. By entering their Region, Land Size, and Soil Type, farmers receive personalized recommendations on:
 
-🚀 Setup Instructions
+
+Government Schemes: Direct links to subsidies and financial aid they are eligible for.
+
+Crop Optimization: What to plant based on their specific land acreage.
+
+Actionable Advice: Localized agricultural practices based on regional climate and soil data.
+
+Setup Instructions
 
 1. Clone the Repository
 git clone <your-repository-link>
@@ -24,35 +31,26 @@ Open: index.html
 in your browser.
 
 
-Government Schemes: Direct links to subsidies and financial aid they are eligible for.
 
-Crop Optimization: What to plant based on their specific land acreage.
+Key Features
+ Regional Localization: Tailored content for specific States and Districts.
 
-Actionable Advice: Localized agricultural practices based on regional climate and soil data.
+ Scalable Advice: Different logic for Marginal, Small, and Large-scale land holdings.
 
-🚀 Key Features
-📍 Regional Localization: Tailored content for specific States and Districts.
+ Live Weather Integration: Real-time updates to help with daily farming decisions.
 
-📏 Scalable Advice: Different logic for Marginal, Small, and Large-scale land holdings.
-
-📱 Mobile-First Design: Optimized for low-bandwidth areas and entry-level smartphones.
-
-🌐 Multi-language Support: Accessible in local dialects (Unicode supported).
-
-🌦️ Live Weather Integration: Real-time updates to help with daily farming decisions.
-
-🛠️ Tech Stack
+Tech Stack
 This project is built using a "Clean Web" approach to ensure maximum speed and compatibility:
 
-HTML5: Semantic structure for accessibility.
+HTML5: Semantic structure for accessibility
 
-CSS3: Custom Flexbox/Grid layouts (No heavy frameworks to keep load times low).
+CSS3: Custom Flexbox/Grid layouts 
 
-JavaScript (Vanilla): Dynamic filtering logic and API handling.
+JavaScript (Vanilla): Dynamic filtering logic and API handling
 
-JSON: Localized database for schemes and crop data.
+JSON: Localized database for schemes and crop data
 
-📂 Project Structure
+Project Structure
 Plaintext
 ├── index.html          # Main landing page & input form
 ├── assets/
@@ -62,7 +60,8 @@ Plaintext
 ├── data/
 │   └── schemes.json    # Database of regional govt schemes
 └── README.md           # Project documentation
-🏗️ How It Works (The Logic)
+
+How It Works (The Logic)
 The application follows a simple three-step logic flow:
 
 Input: User selects District (e.g., Nashik) and Land Size (e.g., 1.5 Hectares).
@@ -71,7 +70,7 @@ Process: JavaScript parses schemes.json to find matches for the region and size 
 
 Output: The DOM updates dynamically to show "Your Recommended Schemes" and "Best Crops for Your Land."
 
-📝 Roadmap
+Roadmap
 [ ] Phase 1: Data collection for initial 5 states.
 
 [ ] Phase 2: Build responsive UI components.
@@ -82,7 +81,7 @@ Output: The DOM updates dynamically to show "Your Recommended Schemes" and "Best
 
 [ ] Phase 5: Add PWA (Progressive Web App) support for offline use.
 
-🤝 Contributing
+Contributing
 As this is a social-impact project, contributions regarding localized data or translation are highly encouraged. Please feel free to fork the repo and submit a PR!
 
 Developed with ❤️ for the farming community.
