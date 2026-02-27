@@ -38,7 +38,7 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 60px;
     color: #ffffff;
     font-weight: bold;
     letter-spacing: 1px;
@@ -46,14 +46,14 @@ header h1 {
 }
 
 header p {
-    font-size: 18px;
+    font-size: 30px;
     color: #f5f5f5;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
 }
 .hello {
     text-align: center;
     padding: 40px 100px;
-    font-size: 18px;
+    font-size: 25px;
 }
 .cards {
     display: flex;
@@ -167,3 +167,22 @@ footer {
         font-size: 16px;
     }
 }
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.stage1 { background-image: url("image/Screenshot 2026-02-26 192753.png"); }
+.stage2 { background-image: url("image/Screenshot 2026-02-26 192821.png"); }
+.stage3 { background-image: url("image/Screenshot 2026-02-26 192846.png"); }
+.stage4 { background-image: url("image/Screenshot 2026-02-26 192912.png"); }
+.stage5 { background-image: url("image/Screenshot 2026-02-26 192933.png"); }
+.stage6 { background-image: url("image/Screenshot 2026-02-26 192955.png"); }
+.stage7 { background-image: url("image/Screenshot 2026-02-26 193014.png"); }
+.stage8 { background-image: url("image/Screenshot 2026-02-26 193033.png"); }
+.stage9 { background-image: url("image/Screenshot 2026-02-26 193104.png"); }
+.stage10 { background-image: url("image/Screenshot 2026-02-26 193120.png"); }
+.stage11 { background-image: url("image/Screenshot 2026-02-26 193146.png"); }
+.stage12 { background-image: url("image/Screenshot 2026-02-26 193201.png"); }
