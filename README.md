@@ -30,8 +30,6 @@ http://localhost:3000
 Open: index.html
 in your browser.
 
-
-
 Key Features
  Regional Localization: Tailored content for specific States and Districts.
 
@@ -40,11 +38,15 @@ Key Features
  Live Weather Integration: Real-time updates to help with daily farming decisions.
 
 Tech Stack
+
 This project is built using a "Clean Web" approach to ensure maximum speed and compatibility:
 
 HTML5: Semantic structure for accessibility
+
 CSS3: Custom Flexbox/Grid layouts 
+
 JavaScript (Vanilla): Dynamic filtering logic and API handling
+
 JSON: Localized database for schemes and crop data
 
 How It Works (The Logic)
