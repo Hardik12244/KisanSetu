@@ -14,20 +14,27 @@ Actionable Advice: Localized agricultural practices based on regional climate an
 Setup Instructions
 
 1. Clone the Repository
+
 git clone <your-repository-link>
+
 cd <project-folder>
 
 2. Install Dependencies
+
 Run: npm install
 
 4. Start Backend Server
+
 Run: node index.js
 
 Server will start at:
+
 http://localhost:3000
 
 4. Run Frontend
+
 Open: index.html
+
 in your browser.
 
 Key Features
