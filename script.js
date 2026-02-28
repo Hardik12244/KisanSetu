@@ -9,7 +9,7 @@ async function getAdvice() {
         return;
     }
 
-    const response = await fetch("http://localhost:3000/get-advice", {
+    const response = await fetch("/get-advice", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -38,7 +38,7 @@ document.getElementById("state").addEventListener("change", function () {
 
     const state = this.value;
 
-    fetch("http://localhost:3000/get-advice", {
+    fetch("/get-advice", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ state })
