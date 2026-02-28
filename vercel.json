@@ -1,6 +1,4 @@
 {
-  "buildCommand": false,
-  "outputDirectory": ".",
   "rewrites": [
     { "source": "/get-advice", "destination": "/api/get-advice" }
   ]
