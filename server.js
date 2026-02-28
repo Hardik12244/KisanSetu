@@ -19,20 +19,26 @@ app.post('/get-advice', (req, res) => {
     }
 
     if (!city) {
+        if (!agricultureData[state].cities) {
+            return res.json({ cities: [] });
+        }
+
         const cities = Object.keys(agricultureData[state].cities);
         return res.json({ cities });
     }
-
     if (!agricultureData[state].cities[city]) {
         return res.json({ error: "Invalid city" });
     }
 
-    let sizeType = landSize <= 2 ? "small" : "large";
+    if (landSize === undefined) {
+        return res.json({ error: "Land size missing" });
+    }
 
+    let sizeType = landSize <= 2 ? "small" : "large";
     const info = agricultureData[state].cities[city][sizeType];
     const coords = agricultureData[state].cities[city].coords;
-    let sizeCategory = landSize <= 2 
-        ? "Small Farmer (Priority Support)" 
+    let sizeCategory = landSize <= 2
+        ? "Small Farmer (Priority Support)"
         : "Large Farmer (Machinery Support)";
 
     res.json({
@@ -42,8 +48,8 @@ app.post('/get-advice', (req, res) => {
         expertTip: info.tip,
         soil: info.soil,
         link: info.link,
-        coords:coords,
-        city:city,
+        coords: coords,
+        city: city,
     });
 });
 

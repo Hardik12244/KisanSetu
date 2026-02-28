@@ -21,6 +21,10 @@ module.exports = (req, res) => {
   }
 
   if (!city) {
+    if (!agricultureData[state].cities) {
+      return res.json({ cities: [] });
+    }
+
     const cities = Object.keys(agricultureData[state].cities);
     return res.json({ cities });
   }
@@ -29,8 +33,11 @@ module.exports = (req, res) => {
     return res.json({ error: "Invalid city" });
   }
 
-  let sizeType = landSize <= 2 ? "small" : "large";
+  if (landSize === undefined) {
+    return res.json({ error: "Land size missing" });
+  }
 
+  let sizeType = landSize <= 2 ? "small" : "large";
   const info = agricultureData[state].cities[city][sizeType];
   const coords = agricultureData[state].cities[city].coords;
   let sizeCategory = landSize <= 2

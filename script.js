@@ -9,7 +9,7 @@ async function getAdvice() {
         return;
     }
 
-    const response = await fetch("/get-advice", {
+    const response = await fetch("https://kisansetu-s7nd.onrender.com/get-advice", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -38,14 +38,14 @@ document.getElementById("state").addEventListener("change", function () {
 
     const state = this.value;
 
-    fetch("/get-advice", {
+    fetch("https://kisansetu-s7nd.onrender.com/get-advice", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ state })
     })
         .then(res => res.json())
         .then(data => {
-
+            console.log(data);
             const cityDropdown = document.getElementById("city");
             cityDropdown.innerHTML = '<option value="">Select City</option>';
 
