@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/get-advice.js": {
-      "includeFiles": "data.json"
-    }
-  },
   "rewrites": [
     { "source": "/get-advice", "destination": "/api/get-advice" }
   ]

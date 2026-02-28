@@ -1,9 +1,4 @@
-const fs = require('fs');
-const path = require('path');
-
-const agricultureData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '..', 'data.json'), 'utf8')
-);
+const agricultureData = require('../data.json');
 
 module.exports = (req, res) => {
   // Handle CORS
