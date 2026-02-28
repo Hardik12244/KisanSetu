@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const agricultureData = JSON.parse(
-  fs.readFileSync(path.join(process.cwd(), 'data.json'), 'utf8')
+  fs.readFileSync(path.join(__dirname, '..', 'data.json'), 'utf8')
 );
 
 module.exports = (req, res) => {
